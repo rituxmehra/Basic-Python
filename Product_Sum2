@@ -1,0 +1,17 @@
+# This program will accept two integers from the user and return their product.
+# If the product is greater than 1000, then will return their sum.
+
+def sum_or_product(a, b):
+    product = a * b
+    if product < 1000:
+        return product
+    else:
+        return a + b
+
+
+# Take in user input
+num1 = int(input("Enter your first number: "))
+num2 = int(input("Enter your second number: "))
+
+result = sum_or_product(num1, num2)
+print(result)
