@@ -1,0 +1,8 @@
+# This program will keep track of a running total
+
+# initialize starting value
+previous_Num = 0
+for i in range(10):
+    sum = previous_Num + i
+    print("Current Number ", i, "Previous Number ", previous_Num, "Sum ", sum)
+    previous_Num = i
