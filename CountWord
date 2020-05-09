@@ -1,4 +1,4 @@
-# Return the total count the string "Emma" appears in the given string
+# Return the total count the string "Emma" appears in the given string using string function
 
 sampleStr = "Emma is a good developer. Emma is a writer."
 cnt = sampleStr.count("Emma")
