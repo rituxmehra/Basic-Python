@@ -1,0 +1,12 @@
+# This program will print all characters at the even indices of a string
+
+# prompt user to accept string
+response = input("Enter string:\n")
+
+print("Original String is: ", response)
+print("Only printing characters at even index: ")
+
+index = 0
+# range(start, stop, step)
+for i in range(0, len(response), 2):
+    print("index [", i, "]", response[i])
