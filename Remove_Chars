@@ -1,0 +1,14 @@
+# This program will remove a given number of characters from a string
+
+# prompt user
+response = str(input("Enter string:\n"))
+num = int(input("Enter number of characters to remove from string:\n"))
+
+# define function to remove chars
+# begins printing the char which is AT the index you want to start removal
+def charRemove(r, n):
+    return r[n:]
+
+# call remove function
+shortString = charRemove(response, num)
+print("Your new string is", shortString)
