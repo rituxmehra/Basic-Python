@@ -1,0 +1,5 @@
+# Return the total count the string "Emma" appears in the given string
+
+sampleStr = "Emma is a good developer. Emma is a writer."
+cnt = sampleStr.count("Emma")
+print(cnt)
