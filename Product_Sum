@@ -1,5 +1,5 @@
 # This program will accept two integers from the user and return their product.
-# If the product is greater than 1000, then will return their sum.
+# If the product is greater than 1000, then it will return their sum.
 
 num1 = int(input("Enter your first number: "))
 num2 = int(input("Enter your second number: "))
