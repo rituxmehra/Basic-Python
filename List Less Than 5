@@ -1,0 +1,16 @@
+# This program will print all list values less than 5
+
+# construct list
+myList = []
+
+# create and populate list, must include asterisk
+# in range function, first number is always included, second number is excluded
+myList = [*range(0, 10, 1)]
+print(myList)
+
+newList = []
+for i in myList:
+    if i < 5:
+        # alternatively can use print(i)
+        newList.append(i)
+print(newList)
